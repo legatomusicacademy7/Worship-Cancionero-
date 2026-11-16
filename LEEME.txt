@@ -1,0 +1,20 @@
+WORSHIP — Cancionero personal
+By Freddy Lara
+
+PUBLICACIÓN
+1. Sube el contenido completo de esta carpeta a la raíz de un repositorio GitHub.
+2. En Settings > Pages, selecciona Deploy from a branch, rama main y carpeta /(root).
+3. Abre la URL HTTPS publicada. En Android/Windows usa el botón Instalar app o el menú del navegador.
+4. Para actualizar la aplicación, reemplaza los archivos y cambia CACHE en sw.js (por ejemplo worship-static-v2).
+
+DATOS Y PRIVACIDAD
+- La biblioteca se guarda localmente en IndexedDB del navegador/dispositivo.
+- No hay registro, servidor de canciones, publicidad ni sincronización entre usuarios.
+- Exporta periódicamente el respaldo JSON desde Agregar canción.
+- Para pasar canciones a otro dispositivo, exporta e importa el JSON.
+- El navegador puede borrar datos locales si el usuario limpia los datos del sitio; el respaldo externo es importante.
+- La instalación PWA y Service Worker requieren HTTPS (GitHub Pages lo proporciona).
+
+NOTAS
+- La importación permite reemplazar la biblioteca o combinar omitiendo coincidencias por título y autor.
+- La transposición es temporal en la vista; editar y guardar permite hacer cambios permanentes.
